@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.travel.reco.FeedActivity">
+
+    <item
+        android:id="@+id/my_stats"
+        android:orderInCategory="100"
+        android:title="My Statistics"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/edit_goals"
+        android:orderInCategory="100"
+        android:title="Edit Goals"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/family_stats"
+        android:orderInCategory="100"
+        android:title="Family Statistics"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_logout"
+        android:orderInCategory="100"
+        android:title="Logout"
+        app:showAsAction="never" />
+</menu>
