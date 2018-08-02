@@ -37,14 +37,14 @@ public class Goals extends AppCompatActivity {
                 EditText walkGoal = findViewById(R.id.walkGoal);
                 String newWalk = walkGoal.getText().toString();
                 if(!newWalk.isEmpty()) {
-                    walkGoal.setHint(newWalk +" (steps)");
+                    walkGoal.setHint(newWalk +" (mins)");
                     walkGoal.setText("");
                 }
 
                 EditText swimGoal = findViewById(R.id.swimGoal);
                 String newSwim = swimGoal.getText().toString();
                 if(!newSwim.isEmpty()) {
-                    swimGoal.setHint(newSwim +" (steps)");
+                    swimGoal.setHint(newSwim +" (miles)");
                     swimGoal.setText("");
                 }
 
