@@ -23,7 +23,7 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="scalingPercent" value="58" />
+                                                <entry key="scalingPercent" value="70" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -36,7 +36,7 @@
                                       <entry key="backgroundAssetType" value="COLOR" />
                                       <entry key="backgroundColor" value="ffffff" />
                                       <entry key="backgroundLayerName" value="ic_myfp_bg" />
-                                      <entry key="foregroundImage" value="$USER_HOME$/Documents/hack/MyFitnessPal_Logo_Blue-2787x331.png" />
+                                      <entry key="foregroundImage" value="$USER_HOME$/Documents/hack/mfp_no_pattern.png" />
                                       <entry key="foregroundLayerName" value="ic_myfp_fg" />
                                       <entry key="outputName" value="ic_myfp" />
                                     </map>
