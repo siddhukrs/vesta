@@ -48,16 +48,9 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="30dp"
                         android:layout_weight="1"
-                        android:text="Name"
-                        android:textSize="20sp" />
-
-                    <TextView
-                        android:id="@+id/username_value"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="Scott"
-                        android:textSize="20sp" />
+                        android:text="Scott's Statistics"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
 
                 </LinearLayout>
             </TableRow>
@@ -77,21 +70,38 @@
                     <TextView
                         android:id="@+id/walk"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
                         android:layout_marginLeft="30dp"
                         android:layout_weight="1"
                         android:text="Walking"
                         android:textSize="20sp" />
 
-                    <ProgressBar
-                        android:id="@+id/walkProgressBar"
-                        style="?android:attr/progressBarStyleHorizontal"
+                    <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginRight="20dp"
                         android:layout_weight="1"
-                        android:progress="79" />
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="1"
+                            android:text="60 minutes"
+                            android:textSize="15sp"
+                            android:textStyle="italic" />
+
+                        <ProgressBar
+                            android:id="@+id/walkProgressBar"
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_weight="1"
+                            android:progress="79" />
+                    </LinearLayout>
 
                 </LinearLayout>
             </TableRow>
@@ -111,21 +121,38 @@
                     <TextView
                         android:id="@+id/swim"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
                         android:layout_marginLeft="30dp"
                         android:layout_weight="1"
                         android:text="Swimming"
                         android:textSize="20sp" />
 
-                    <ProgressBar
-                        android:id="@+id/swimProgress"
-                        style="?android:attr/progressBarStyleHorizontal"
+                    <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginRight="20dp"
                         android:layout_weight="1"
-                        android:progress="23" />
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="1"
+                            android:text="3.1 miles"
+                            android:textSize="15sp"
+                            android:textStyle="italic" />
+
+                        <ProgressBar
+                            android:id="@+id/swimProgress"
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_weight="1"
+                            android:progress="23" />
+                    </LinearLayout>
 
                 </LinearLayout>
             </TableRow>
@@ -145,21 +172,39 @@
                     <TextView
                         android:id="@+id/Running"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
                         android:layout_marginLeft="30dp"
                         android:layout_weight="1"
                         android:text="Running"
                         android:textSize="20sp" />
 
-                    <ProgressBar
-                        android:id="@+id/runProgress"
-                        style="?android:attr/progressBarStyleHorizontal"
+                    <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginRight="20dp"
                         android:layout_weight="1"
-                        android:progress="58" />
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="1"
+                            android:text="5.6 miles"
+                            android:textSize="15sp"
+                            android:textStyle="italic" />
+
+                        <ProgressBar
+                            android:id="@+id/runProgress"
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_weight="1"
+                            android:progress="58" />
+                    </LinearLayout>
+
                 </LinearLayout>
 
             </TableRow>
